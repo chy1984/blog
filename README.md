@@ -21,6 +21,16 @@ blog是基于springboot搭建的个人博客，响应式
 
 &nbsp;
 
+### 使用
+- 新建数据库 db_blog ，运行sql文件
+- 修改application.properties中的数据库连接信息
+- 修改config包下Constants类中设置的上传文件保存目录
+- 项目使用了lombok，IDEA需要安装lombok插件
+
+运行项目，访问地址 127.0.0.1:9501 ，后台地址 127.0.0.1:9501/admin，用户名 admin ，密码 123456
+
+&nbsp;
+
 ### 前台效果图
 首页：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200627214559401.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoeV8xODg4MzcwMTE2MQ==,size_16,color_FFFFFF,t_70)
@@ -62,15 +72,7 @@ blog是基于springboot搭建的个人博客，响应式
 
 个人信息修改：
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200627215327607.PNG?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NoeV8xODg4MzcwMTE2MQ==,size_16,color_FFFFFF,t_70)
-&nbsp;
 
-### 使用
-- 新建数据库 db_blog ，运行sql文件
-- 修改application.properties中的数据库连接信息
-- 修改config包下Constants类中设置的上传文件保存目录
-- 项目使用了lombok，IDEA需要安装lombok插件
-
-运行项目，访问地址 127.0.0.1:9501 ，后台地址 127.0.0.1:9501/admin，用户名 admin ，密码 123456
 
 
 
